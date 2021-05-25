@@ -1,0 +1,39 @@
+body {
+    background-color: midnightblue;
+}
+
+#container {
+    width: 100%;
+    height: 950px;
+    position: relative;
+}
+
+#nav {
+    background-color: lightgray;
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    left: -220px;
+    transition: 2s;
+}
+
+#nav.hide {
+    left: 0px;
+}
+
+h1 {
+    font-size: 25px;
+    cursor: pointer;
+    background-color: lightgray;
+    margin: 0;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    color: skyblue;
+}
